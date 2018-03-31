@@ -14,7 +14,7 @@ python douban.py
 python server.py
 ```
 
-访问 [0.0.0.0:8080](0.0.0.0:8080)
+访问 [http://0.0.0.0:8080/](http://0.0.0.0:8080/)
 
 
 ![demo](./demo.png)

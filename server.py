@@ -52,6 +52,7 @@ def read_database(table_name):
 
     for index in range(len(values)):
         item  = values[index]
+        # 转换为dict便于前端的table展示
         values[index] = Book(item[0], item[1], item[2], item[3], item[4], item[5]).__dict__
     return values
 

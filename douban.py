@@ -91,6 +91,7 @@ def insert_database(result, table_name):
         description TEXT
         );''' % (table_name))
 
+    # 注意sql_str中的 %s 需要加引号
     for book in result:
         try:
             sql_str = r"insert into '%s' values ('%s', '%s', %f, '%s', %d, '%s')" % (table_name, book.book_id, book.name, float(book.score), book.url, int(book.comment_num), book.description)
