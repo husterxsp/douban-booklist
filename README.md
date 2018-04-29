@@ -4,6 +4,11 @@
 
 ### run
 
+安装依赖
+```
+pip install -r requirements.txt
+```
+
 爬取数据
 ```
 python douban.py
